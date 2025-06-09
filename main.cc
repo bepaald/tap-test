@@ -26,6 +26,9 @@ bool g_verbose;
 
 int main(int argc, char *argv[])
 {
+
+  std::cout << "YO!" << std::endl;
+
   auto getKey = [](std::set<std::string> const &secrets, std::string const &encryptedkey, std::string &decrypted)
   {
     if (g_verbose) [[unlikely]]
