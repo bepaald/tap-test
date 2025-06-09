@@ -27,6 +27,6 @@ if (APPLE)
 endif()
 
 file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS *.cc *.h)
-add_executable(get_signal_desktop_key_mac ${SOURCES})
+add_executable(tap-test ${SOURCES})
 
-target_link_libraries(get_signal_desktop_key_mac ${SECLIB} ${COREF} OpenSSL::Crypto)
+target_link_libraries(tap-test ${SECLIB} ${COREF} OpenSSL::Crypto)
