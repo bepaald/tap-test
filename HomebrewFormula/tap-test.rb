@@ -4,7 +4,7 @@ class TapTest < Formula
   desc "Testing tap"
   homepage "https://github.com/bepaald/tap-test"
   license "GPL-3.0-or-later"
-  head "https://github.com/bepaald/tap-test.git", branch: "master"
+  head "https://github.com/bepaald/tap-test.git", branch: "main"
 
   depends_on "cmake" =>:build
   depends_on "openssl@3"
